@@ -105,7 +105,7 @@ public class MouseSlice : MonoBehaviour {
         if (!MeshCutter.SliceMesh(mesh, slicePlane, out posMesh, out negMesh))
         {
             // If we didn't slice the object then no need to separate it into 2 objects
-            Debug.Log("Didn't slice");
+            Debug.Log("Failed to cut anything!");
             return;
         }
 
