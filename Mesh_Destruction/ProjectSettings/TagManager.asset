@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Editable
+  - Katana
+  - Vert0
+  - Vert1
   layers:
   - Default
   - TransparentFX
